@@ -1,0 +1,32 @@
+﻿# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Raw datasets (download separately)
+data/raw/*
+!data/raw/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excel temporary files
+~$*
+
+# Jupyter
+.ipynb_checkpoints/
